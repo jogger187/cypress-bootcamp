@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "open": "cypress open"
+  },
   "devDependencies": {
     "cypress": "^12.6.0",
     "typescript": "^4.9.5"
