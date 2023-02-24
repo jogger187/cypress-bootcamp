@@ -6,11 +6,21 @@
 yarn install
 ```
 
-## Open Cypress Utility
+## Run Cypress With Utility
 
 ```yarn
 yarn open
 ```
+
+## Run Cypress With CLI
+
+```yarn
+yarn cy:run --spec "cypress/e2e/spec.cy.ts"
+```
+
+When the test process is over, you will get test record.
+
+![spec.cy.ts.gif](./video-record/spec.cy.ts.gif)
 
 ### Test File Example
 
